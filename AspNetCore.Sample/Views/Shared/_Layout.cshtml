@@ -1,0 +1,23 @@
+﻿@inject IJsonHelper Json;
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["env"]Sample Project</title>
+    @*<link rel="stylesheet" href="~/dist/vendor.css" asp-append-version="true" />*@
+    <environment names="Development">
+    </environment>
+    <environment names="Staging,Production">
+    </environment>
+</head>
+<body class="bg-light">
+    @RenderBody()
+    @*<script src="~/dist/vendor.js" asp-append-version="true"></script>*@
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>
