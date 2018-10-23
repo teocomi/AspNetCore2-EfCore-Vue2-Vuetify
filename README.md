@@ -25,6 +25,5 @@ To test it:
 
 
 
-![1540309429835](/./assets/1540309429835.png)
-
-![1540309412660](/./assets/1540309412660.png)
+![1540309429835](https://user-images.githubusercontent.com/2679513/47374060-fd93a780-d6e4-11e8-8718-a8df961bd17b.png)
+![1540309412660](https://user-images.githubusercontent.com/2679513/47374061-fd93a780-d6e4-11e8-8ad1-dac0fb5eae19.png)
