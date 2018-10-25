@@ -12,13 +12,16 @@ Sample project using:
 - Webpack 4
 - Active Directory Authentication (disabled)
 
-
+Recommended Visual Studio Extension: https://marketplace.visualstudio.com/items?itemName=MadsKristensen.VuejsPack-18329
 
 ## Build
 
-To test it:
+Only tested with VS2017.
+
+To run it:
 
 - restore the nuget packages
+  - Make sure the NuGet Package `Microsoft.AspNetCore.App` matches a version of .NETCore installed on your machine (in my case v2.1.5)!
 - restore the npm packages
 - run `Update-Database` from the Package Manager Console
 - debug

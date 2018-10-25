@@ -60,7 +60,7 @@
         props: ['value'],
         data() {
             return {
-                user: user,
+                //user: user,
               menu: [
                 { icon: 'add', text: 'New Room', path:'/brief' },
                 //{ icon: 'exit_to_app', text: 'Log out', href: '/account/signout' }
